@@ -1,0 +1,138 @@
+/* slide bar style  */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: relative;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 999999999;
+}
+.navhome{
+    position: fixed;
+    left: -300px;
+    top: 0;
+    background-color: rgba(0, 128, 128, 0.479);
+    backdrop-filter: blur(30px);
+    width: 300px;
+    height: 100vh; 
+    z-index: 99999;
+}
+.logo{
+    font-size: 80px;
+    padding: 30px;
+    border-bottom: 1px solid rgb(2, 80, 56);
+    z-index: 999;
+}
+.menu{
+    margin: 0;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    margin: 10px;
+    display: block;
+}
+
+.menu ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: tomato;
+    transition: .5s;
+}
+
+.social{
+    position: absolute;
+    bottom: 10px;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    display: inline-block;
+}
+.social ul li a{
+    cursor: pointer;
+    margin-left: 20px;
+    color: black;
+    font-size: 20px; 
+}
+.social ul li a:hover{
+    color: white;
+    transition: .5s;
+
+}
+
+.navbutton{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#menubutton{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.closebutton{
+    position: fixed;
+}
+.openbutton{
+    position: fixed;
+    display: none;
+}
+
+
+
+
+
+
+.pageone{
+    width: 100%;
+    height: 100vh;
+    background-color: thistle;
+}
+
+.element{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.secondpage{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(110, 173, 129);
+}
+
+
+#toTop {
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0.349);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    display: none;
+    border-radius: 50%;
+    padding: 0px 10px;
+}
